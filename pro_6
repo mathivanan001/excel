@@ -1,0 +1,10 @@
+Sub Button1 click()
+Dim emp As String, tot As Integer, sheet As Worksheet, i As Integer tot = 0
+emp = InputBox("Enter the employee name (case Sensitive)")
+For Each sheet In Worksheets
+For i 2 το 13
+If sheet.Cells(1, 2) emp Then tot tot + sheet.Cells(i, 3)
+End If
+Next i
+Next sheet MsgBox "Total Sales of "6 emp & :" tot
+End Sub
