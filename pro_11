@@ -1,0 +1,14 @@
+Sub Button1 Click()
+Dim discRate As Double
+Dim cashFlows (50) As Double
+Dim npVal As Double
+discRate Range("D2").Value Discount rate of 20%
+cashFlows (0) = Range ("D4").Value 'Started Business
+cashFlows (1) Range ("E4").Value
+cashFlows (2) Range ("F4").Value
+cashFlows (3) = Range ("G4").Value
+cashFlows (4) Range("H4").Value
+npval NPV (discRate, cashFlows)
+Range ("D5").Value npval
+MsgBox "Cash Flow Estimated Successfully!", vbinformation
+End Sub
