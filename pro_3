@@ -1,0 +1,13 @@
+Function AreaTriangle (Sidel As Double. Side2 As Double, Side3 As Double) As Double
+Dim p As Double P (Sidel +side2+ Side3) / 2
+AreaTriangle Sqr(p *(p -Sidel)* (p -Side2) *(p -Side3))
+End Function
+Function AreaRectangle (Height As Double, Width As Double) As Double
+AreaRectangle =Width +Height
+End Function
+Function AreaSquare (Side As Double) As Double
+Areasquare = Side *Side
+End Function
+Function AreaCircle (Radius As Double) As Double
+AreaCircle 3.14159* Radius* Radius
+End Function
