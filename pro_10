@@ -1,0 +1,16 @@
+Sub arithmetic()
+3 Val (InputBox("Enter the starting the row number")) e Val (InputBox("Enter the ending row number"))
+For is To e 'start row to end roM
+Select Case Range ("B" 1)
+Case "+"
+Range ("D" & 1) = Range("A" & 1) + Range("C" & 1)
+Case ""
+Range ("D" & 1) = Range("A" & 1) Range ("C" & 1)
+Case "+"
+Range ("D" 61) = Range("A" & 1) Range ("C" 1)
+Case "/"
+Range ("D" & 1) Range("A" & 1) / Range ("C" & 1)
+End Select
+Next i
+Msgbox " Arithmetic Calculation done Successfully"
+End Sub
