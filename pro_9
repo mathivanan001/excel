@@ -1,0 +1,29 @@
+Sub countt()
+Dim rng As Range, cell As Range
+Dim cellWords, totalWords As Integer, content As String
+Set rng Selection
+cellWords = 0
+totalWords = 0
+For Each cell In ing
+If Not cell.HasFormula Then content cell.Value content = Trim(content)
+If content = ""Then cellWords = 0 Else
+cellWords = 1
+End If
+Do While InStr(content, ") > 0 content Mid(content, InStr(content, "")) content = Trim(content) cellWords cellWords + 1
+Loop
+totalWords totalWords + cellWords
+End If
+Next cell
+MsgBox totalWords & words found in the selected range."
+Set sel Selection
+Dim arr() As String
+wc = 0
+*For Each cell in sel
+'cont = Trim(cell.Value)
+'art = Split(cont, "")
+For Each i In arr
+wc wc +1
+Next
+Next
+"MsgBox " The total number of words:" & wc
+End Sub
