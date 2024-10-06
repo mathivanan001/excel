@@ -1,0 +1,12 @@
+Sub callmean()
+Range ("c15").Value = Application.WorksheetFunction.Average (Range("c3:c11"))
+Range("e15").Value = Application.WorksheetFunction. Average (Range("e3:ell"))
+End Sub
+Sub callstd()
+Range ("c17").Value= Application.WorksheetFunction. StDev (Range("c3:cll"))
+Range("e17").Value = Application.WorksheetFunction. StDev (Range("e3:ell"))
+End Sub
+Sub callvar()
+Range("c19").Value =Application.WorksheetFunction. Var (Range("c3:c11")) 
+Range("e19").Value =Application.WorksheetFunction. Var (Range ("e3:ell"))
+End Sub
