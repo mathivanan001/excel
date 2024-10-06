@@ -1,0 +1,22 @@
+Sub policyvalues()
+mn1 Range("C5").Value
+mx1 Range("C5").Value 
+mn2 Range("D5").Value 
+mx2 = Range ("D5").Value
+
+For 16 To 14
+v1 = Range("C" & 1).Value
+If mnl > v1 Then mn1 = v1
+If mx1 < v1 Then mx1 = v1
+
+v2 Range("D" & 1).Value
+If mn2 > v2 Then mn2v2 
+If mx2 < v2 Then mx2 v2 
+Next i
+
+Range ("C16").Value = mn1
+Range ("C17").Value = mx1
+Range ("D16").Value = mn2 
+Range ("D17").Value = mx2
+MsgBox Min Max Values Successfully Calculated"
+End Sub
