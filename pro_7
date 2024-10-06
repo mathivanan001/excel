@@ -1,0 +1,10 @@
+Sub markchart()
+
+Range("A2:B").Select
+ActiveSheet. Shapes. Add Chart2 (201, xlColumnClustered).Select
+ActiveChart.SetSourceData Source: Range("Sheet1/AP2:6958")
+End Sub
+ActiveSheet.Shapes("Chart 7"). Incrementieft -237
+ActiveSheet.Shapes ("Chart 7"). IncrementTop -90.6
+Application. Left 571
+Application. Top 1
