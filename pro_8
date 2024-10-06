@@ -1,0 +1,14 @@
+Sub Buttonl Click()
+1 Left (Worksheets("sheetl").Cells(1, 1).Value, 3)
+Worksheets("sheet1").Cells(3, 2).Value = 1
+r Right (Worksheets("sheet1").Cells(1, 1).Value, 3)
+Worksheets("sheet1").Cells(4, 2).Value = r
+m= Mid (Worksheets("sheet1").Cells(1, 1).Value, 3, 3)
+Worksheets("sheet1").Cells(5, 2).Value = m
+Length = Len (Worksheets("sheet1").Cells(1, 1).Value) 2).Value = Length
+Worksheets("sheet1").Cells(6, pos InStr(Worksheets("sheet1").Cells(1, 1).Value, "w")
+Worksheets("sheet1").Cells(7, 2).Value = pos
+End Sub
+Sub Button2 click()
+a= Cells(10, 1).Value & & Cells(10, 2).Value MsgBox (a)
+End Sub
